@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Breakout Game - Udemy</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<canvas id="myCanvas" width="480px" height="320px"></canvas>
+	<script src="js/script.js">
+		var canvas = document.getElementById("myCanvas");
+		var ctx = canvas.getContext("2d");
+
+		ctx.beginPath();
+		ctx.rect(20,40,50,50);
+		ctx.fillStyle = "#000";
+		ctx.fill();
+		ctx.closePath();
+	</script>
+</body>
+</html>
